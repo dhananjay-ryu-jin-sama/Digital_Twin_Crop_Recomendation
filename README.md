@@ -20,3 +20,6 @@ The sensors are connected to the Arduino Uno microcontroller, and the collected 
 
 # Working Principle 
 The Digital Twin of agricultural land is created by combining various soil data such as salt content (Sodium, Potassium, Phosporus), soil moisture level, pH ratio, location, weather report, and so on... This model is created by capturing continuous data from the field over time and generating it with MATLAB. In MATLAB, we utilized a CNN neural network to create a decision matrix to choose the optimum crop for that specific field given the forecasted weather and geographical characteristics. The crop recommendations are based on Tamil Nadu government data from the Tamil Nadu Agricultural University.
+
+We have designed an interactive website that displays all soil data in real time.
+
